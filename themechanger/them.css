@@ -1,0 +1,76 @@
+:root {
+  --bg: #e5e7eb;
+  --card: #ffffff;
+  --section: #f3f4f6;
+  --text: #111827;
+  --primary: #1d7cf2;
+  --secondary: #374151;
+}
+
+.dark-theme {
+  --bg: #121212;
+  --card: #1e1e1e;
+  --section: #2a2a2a;
+  --text: #ffffff;
+  --primary: #3b82f6;
+  --secondary: #4b5563;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: var(--card);
+}
+
+header,
+section {
+  padding: 40px;
+}
+
+section {
+  background: var(--section);
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+p {
+  margin: 20px 0;
+  line-height: 1.6;
+}
+
+button {
+  border: none;
+  padding: 12px 24px;
+  cursor: pointer;
+}
+
+.premium {
+  background: var(--primary);
+  color: white;
+}
+
+.info {
+  background: var(--secondary);
+  color: white;
+}
+
+#theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}

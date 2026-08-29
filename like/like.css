@@ -1,0 +1,54 @@
+.likeapp {
+    text-align: center;
+    margin-top: 40px;
+    background-color: white;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#number {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 180px;
+    margin: 0px;
+}
+
+.img img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    display: none;
+}
+
+#like,
+#dislike {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 30px;
+    margin-left: 22px;
+    padding: 3px 18px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(243, 239, 239);
+}
+
+#like:hover,
+#dislike:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#likeau,
+#dislikeau {
+    display: none;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OpenRoom • Profile</title>
+    <link rel="stylesheet" href="mainpage.css" />
+  </head>
+  <body>
+    <div class="background" aria-hidden="true">
+      <div class="background-glow glow-one"></div>
+      <div class="background-glow glow-two"></div>
+      <div class="background-glow glow-three"></div>
+    </div>
+
+    <div class="app-backdrop" aria-hidden="true"></div>
+
+    <aside class="menu-panel" aria-label="Main navigation">
+      <div class="menu-header">
+        <div class="avatar">SR</div>
+        <div>
+          <div class="menu-label">Student access</div>
+          <h3>Samira R.</h3>
+        </div>
+      </div>
+      <nav class="menu-nav">
+        <a class="menu-item" href="profile.html"><span>Profile</span><em>your details</em></a>
+        <a class="menu-item" href="correct-us.html"><span>Correct Us</span><em>report a room issue</em></a>
+        <a class="menu-item" href="about.html"><span>About</span><em>team and contact</em></a>
+        <a class="menu-item" href="logout.html"><span>Logout</span><em>sign out</em></a>
+      </nav>
+    </aside>
+
+    <header class="navbar">
+      <button class="menu-btn" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="brand">
+        <span class="brand-mark">✦</span>
+        <a href="mainpage.html" class="logo">OpenRoom</a>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <header class="page-header">
+        <a href="mainpage.html" class="back-link">← Back home</a>
+        <h1 class="page-title">Profile</h1>
+      </header>
+
+      <section class="panel profile-card">
+        <div class="profile-grid">
+          <div class="field">
+            <label>Full name</label>
+            <input type="text" value="Samira Rahman" />
+          </div>
+          <div class="field">
+            <label>Student ID</label>
+            <input type="text" value="2024-87123" />
+          </div>
+          <div class="field">
+            <label>Email</label>
+            <input type="email" value="samira.rahman@campus.edu" />
+          </div>
+          <div class="field">
+            <label>Department</label>
+            <input type="text" value="Computer Science" />
+          </div>
+        </div>
+        <button class="primary-button" type="button">Save changes</button>
+      </section>
+    </main>
+
+    <script src="mainpage.js"></script>
+  </body>
+</html>
